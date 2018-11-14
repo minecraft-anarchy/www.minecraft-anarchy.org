@@ -1,5 +1,19 @@
 @import url(font-awesome.min.css);
+/* TODO don't load google font */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+.minecraft-anarchy-logo {
+	width: 3.5rem;
+	height: 3.5rem;
+  object-fit: scale-down;
+  /* convert to white */
+	filter: brightness(0) invert(1);
+}
+
+/* Adopt padding when changing font or text */
+.use-middle {
+	padding-left: 1.8rem;
+}
 
 /*
 	Dimension by HTML5 UP
@@ -1271,7 +1285,7 @@ input, select, textarea {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
+			line-height: 7.9rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
