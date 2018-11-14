@@ -5,9 +5,9 @@
 .minecraft-anarchy-logo {
 	width: 3.5rem;
 	height: 3.5rem;
-  object-fit: scale-down;
-  /* convert to white */
-	filter: brightness(0) invert(1);
+        object-fit: scale-down;
+        /* convert to white */
+        filter: brightness(0) invert(1);
 }
 
 /* Adopt padding when changing font or text */
